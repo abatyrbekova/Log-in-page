@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./fontawesome-free-6.0.0-beta3-web/css/all.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Forms</title>
+</head>
+
+<body>
+
+    <section class="login-page">
+        <div class="social-btn">
+            <button type="button" class="facebook-btn"><i class="fab fa-facebook-f"></i> Facebook login</button> <br>
+            <button type="button" class="google-btn"><i class="fab fa-google-plus-g"></i> Google + login</button> <br>
+            <button type="button" class="twitter-btn"><i class="fab fa-twitter"></i> Twitter login</button> <br>
+        </div>
+
+        <div class="login-form">
+            <form action="index.js" method="get">
+                <h1>Sign in with</h1>
+                <div class="form-box">
+                    <i class="far fa-user"></i>
+                    <input type="text" name="usernameOrEmail" id="1" placeholder="Username or email">
+                </div>
+                <div class="form-box">
+                    <i class="fas fa-key"></i>
+                    <!-- <i class="far fa-lock-alt"></i> -->
+                    <input type="password" name="password" id="2" placeholder="Password">
+                </div>
+                <div class="form-box">
+                    <label class="remember">
+                        <input type="checkbox" name="remember"> Remember me
+                    </label>
+
+                    <input type="submit" class="submit-btn" value="LOGIN">
+
+                </div>
+            </form>
+        </div>
+
+       <!-- <form action="index.js" method="get">
+
+            <fieldset>
+                <legend>Sign in with</legend>
+                 <i class="far fa-user">
+                    <input type="text" name="usernameOrEmail" id="1" placeholder="Username or email">
+                </i>
+
+
+                <i class="far fa-lock-alt">
+                    <input type="password" name="password" id="2" placeholder="Password">
+                </i> -->
+                <!-- <i class="far fa-user"></i>
+                <i class="far fa-lock-alt"></i>
+                <input type="text" name="usernameOrEmail" id="1" placeholder="Username or email">
+
+                <i class="far fa-lock-alt"></i>
+                <input type="password" name="password" id="2" placeholder="Password">
+            </fieldset>
+
+            <div class="form-box">
+                <label class="remember">
+                    <input type="checkbox" name="remember"> Remember me
+                </label>
+
+                <input type="submit" class="submit-btn" value="LOGIN">
+
+
+
+            </div>
+
+
+        </form> -->
+
+
+        <div class="new-register forgot-pwd">
+            <a href="#">Register now</a>
+            <a href="#">Forgotten?</a>
+        </div>
+
+    </section>
+
+
+
+</body>
+
+</html>

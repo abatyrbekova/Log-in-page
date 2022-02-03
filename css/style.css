@@ -11,7 +11,7 @@ body {
     height: 100vh;
   }
 
-  @media only screen and (orientation: landscape) {
+@media only screen and (orientation: landscape) {
 }
 
 /* Extra small devices (phones, 600px and down) */

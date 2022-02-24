@@ -4,21 +4,33 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Log-in page" />
+    <meta
+      name="keywords"
+      content="html, css, web, webpage, facebook, twitter, google, internet,username, log-in, Aigerim" />
+    <meta name="author" content="Aigerim Batyrbekova" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./fontawesome-free-6.0.0-beta3-web/css/all.css">
     <link rel="stylesheet" href="./css/style.css">
+    <link
+      rel="stylesheet"
+      href="./css/mob-style.css"
+      media="(max-width:500px)"
+    />
     <title>Forms</title>
 </head>
 
 <body>
-
     <section class="login-page">
         <div class="social-btn">
-            <button type="button" class="facebook-btn"><i class="fab fa-facebook-f"></i> Facebook login</button> <br>
-            <button type="button" class="google-btn"><i class="fab fa-google-plus-g"></i> Google + login</button> <br>
-            <button type="button" class="twitter-btn"><i class="fab fa-twitter"></i> Twitter login</button> <br>
+            <button type="button" class="facebook-btn"><i class="fab fa-facebook-f l-icon"></i> Facebook login</button>
+            <br>
+            <button type="button" class="google-btn"><i class="fab fa-google-plus-g l-icon"></i> Google + login</button>
+            <br>
+            <button type="button" class="twitter-btn"><i class="fab fa-twitter l-icon"></i> Twitter login</button> <br>
         </div>
-
+        <div class="or">or</div>
+        <div class="line"></div>
         <div class="login-form">
             <form action="index.js" method="get">
                 <h1>Sign in with</h1>
@@ -28,7 +40,6 @@
                 </div>
                 <div class="form-box">
                     <i class="fas fa-key"></i>
-                    <!-- <i class="far fa-lock-alt"></i> -->
                     <input type="password" name="password" id="2" placeholder="Password">
                 </div>
                 <div class="form-box">
@@ -38,18 +49,14 @@
                     <div>
                         <button type="submit" class="submit-btn">login</button>
                     </div>
-
                 </div>
             </form>
         </div>
-
     </section>
     <div class="new-register">
-        <a href="#">Register now</a>
-        <a href="#">Forgotten?</a>
+        <a href="#" class="register-now">Register now</a>
+        <a href="#" class="forgotten">Forgotten?</a>
     </div>
-
-
 </body>
 
 </html>
